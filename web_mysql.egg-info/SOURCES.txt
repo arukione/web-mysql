@@ -1,0 +1,7 @@
+setup.py
+web_mysql/__init__.py
+web_mysql.egg-info/PKG-INFO
+web_mysql.egg-info/SOURCES.txt
+web_mysql.egg-info/dependency_links.txt
+web_mysql.egg-info/requires.txt
+web_mysql.egg-info/top_level.txt

@@ -13,7 +13,7 @@ keywords本项目的关键词
 packages本项目包含哪些包
 """
 setup(
-    name='web-mysql',
+    name='web_mysql',
     version='1.0.0.dev1',
     description='A pure Python mysql connect tool which base on PyMysql',
     url='https://github.com/arukione/web-mysql',
@@ -33,6 +33,6 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
     keywords='hive client python',
-    packages=['web-mysql']
+    packages=['web_mysql']
 )
 
