@@ -6,9 +6,11 @@ Just set database settings and you can fetchone,fetchall,executor function to op
 
 
 You can input sql command string and values list like this:
+```Python
 sql = "insert into users (name,age) values (%s,%s);"
 values = ['your_name',11]
-Than this function will use pymysql to execute the sql command to oprate mysql database.
+```
+Than these function will use pymysql to execute the sql command to oprate mysql database.
 
 ```Python
 # executor function only execute the sql command and it will not return anything.
