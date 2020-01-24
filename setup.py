@@ -1,20 +1,8 @@
 from setuptools import setup
 
-"""
-name项目名称，和顶层目录名称一致;
-version项目当前的版本
-description简单描述
-url为项目访问地址
-author项目开发人员名称
-author_email项目开发人员联系邮件
-license遵循的授权许可
-classifiers参考官方文档
-keywords本项目的关键词
-packages本项目包含哪些包
-"""
 setup(
-    name='web_mysql',
-    version='1.0.0.dev1',
+    name='web-mysql',
+    version='1.0.0.dev2',
     description='A pure Python mysql connect tool which base on PyMysql',
     url='https://github.com/arukione/web-mysql',
     author='aruki',
@@ -32,7 +20,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
-    keywords='hive client python',
+    keywords='web-mysql',
     packages=['web_mysql']
 )
 

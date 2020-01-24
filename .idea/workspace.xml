@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3151ac3-cf12-47f2-8394-69483b85102e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-mysql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_mysql/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/1920.263.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579846741282" />
+    <state x="668" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1579855214954">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="348" key="com.intellij.ide.util.TipDialog/1920.263.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1579855214954" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579847674798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

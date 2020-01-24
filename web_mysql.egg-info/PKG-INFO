@@ -1,13 +1,13 @@
 Metadata-Version: 1.1
 Name: web-mysql
-Version: 1.0.0.dev1
+Version: 1.0.0.dev2
 Summary: A pure Python mysql connect tool which base on PyMysql
 Home-page: https://github.com/arukione/web-mysql
 Author: aruki
 Author-email: zqljiebin@gmail.com
 License: MIT
 Description: UNKNOWN
-Keywords: hive client python
+Keywords: web-mysql
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
 Classifier: Intended Audience :: Developers
