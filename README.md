@@ -1,8 +1,8 @@
 # web-mysql
-A pure Python mysql connect tool which base on PyMysql
+**A pure Python mysql connect tool which base on PyMysql**
 
-A toolkit that simplifies the operation of Python website connecting to Mysql database.
-Just set database settings and you can fetchone,fetchall,executor function to operate mysql database.
+**A toolkit that simplifies the operation of Python website connecting to Mysql database.
+Just set database settings and you can fetchone,fetchall,executor function to operate mysql database.**
 
 
 You can input sql command string and values list like this:
