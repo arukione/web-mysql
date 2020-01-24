@@ -25,3 +25,6 @@ def fetchall(sql,values):
   ...
   return fetch_result
 ```
+
+
+2020/1/24	1.0.0.dev1 register this package.
