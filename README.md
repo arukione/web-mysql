@@ -4,6 +4,10 @@ A pure Python MySQL connect tool which base on PyMySQL
 
 A toolkit that simplifies the operation of use Python to connecting to MySQL database in Web development. It can be used in undersize Flask or Django project or other small porject.
 
+### [中文介绍](#中文介绍)
+
+[Introduction in Chinese](https://www.arukione.com/2020/01/29/%E5%9F%BA%E4%BA%8EPyMySQL%E6%9E%84%E5%BB%BA%E7%9A%84Web-MySQL/)
+
 ### [Installation](#installation)
 
 use pip to install this package:
