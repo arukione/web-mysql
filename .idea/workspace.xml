@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3151ac3-cf12-47f2-8394-69483b85102e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/web-mysql-1.0.0.dev2.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/web_mysql-1.0.0.dev1-py3.7.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_mysql.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/web_mysql.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_mysql.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web_mysql.egg-info/SOURCES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_mysql/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_mysql/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,10 +75,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/1920.263.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580299567910" />
-    <state x="668" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1580299544637">
+    <state x="668" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1580315588631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="348" key="com.intellij.ide.util.TipDialog/1920.263.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580299544637" />
+    <state x="668" y="348" key="com.intellij.ide.util.TipDialog/1920.263.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580315588631" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580303959767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

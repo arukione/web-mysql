@@ -6,3 +6,5 @@ build/
 dist/
 
 web_mysql.egg-info/
+
+.idea/workspace.xml
