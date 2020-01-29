@@ -33,13 +33,22 @@ class Connector:
         self.user = "root"
         self.password = None
         self.database = None
+        self.charset = 'utf8mb4',
+        self.cursorClass = pymysql.cursors.DictCursor
 
     def connect(self):
         """
         A connection creation function.
         :return: mysql connection
         """
-        return pymysql.connect(self.host, self.user, self.password, self.database)
+        return pymysql.connect(
+            host=self.host,
+            user=self.user,
+            password=self.password,
+            db=self.database,
+            charset=self.charset,
+            cursorclass=self.cursorClass
+        )
 
     def executor(self, sql, values=None):
         """
