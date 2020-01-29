@@ -6,7 +6,10 @@ A toolkit that simplifies the operation of Python website connecting to MySQL da
 Just set MySQL settings and you can fetchone,fetchall,executor function to operate MySQL database in Python3..
 
 use pip to install this package:
-`pip3 install web-mysql`
+`pip3 install Web-MySQL`
+
+use pip to upgrade Web-MySQL:
+`pip3 install --upgrade Web-MySQL`
 
 You can input sql command string and values list which format is as follows:
 ```Python
