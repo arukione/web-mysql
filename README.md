@@ -16,20 +16,20 @@ You can input sql command string and values list which format is as follows:
 sql = "insert into users (name,age) values (%s,%s);"
 values = ['your_name',11]
 ```
-Than these function will use PyMySQL to execute the sql command to oprate MySQL database.
+Than these function will use PyMySQL to execute the sql command to operate MySQL database.
 
 ```Python
 # executor function only execute the sql command and it will not return anything.
-def executor(sql,values):
+def executor(sql,values=None):
   ...
  
 # fetchone function will execute the select sql command and fetch the first select result.
-def fetchone(sql,values):
+def fetchone(sql,values=None):
  ...
  return fetch_result
 
 # fetchall function will execute the select sql command and fetch all select result as list.
-def fetchall(sql,values):
+def fetchall(sql,values=None):
   ...
   return fetch_result
 ```
@@ -61,6 +61,10 @@ def get_users():
   sql = "select * from users;"
   all_user = connector.fetchall(sql)
 ```
+
+The database operation can be performed by calling the corresponding function with passing in the SQL command and 'values'. When there are no variables to be passed in SQL command, 'values' don't need to be passed in, because default 'values' is None.
+
+You can create a Connector instance in a independent Python file or Python class, we don't advice you create multiple instances in the same file or class, it's bad for maintenance. If you want have multiple different instance to operate different databases, you should have multiple files or classes to hold it.
 
 1.0.0
 ---
