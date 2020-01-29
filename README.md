@@ -7,10 +7,12 @@ A toolkit that simplifies the operation of use Python to connecting to MySQL dat
 ### [Installation](#installation)
 
 use pip to install this package:
-```$ pip3 install Web-MySQL```
+
+`$ pip3 install Web-MySQL`
 
 use pip to upgrade Web-MySQL:
-```$ pip3 install --upgrade Web-MySQL```
+
+`$ pip3 install --upgrade Web-MySQL`
 
 ### [Instruction](#Instruction)
 
