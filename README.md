@@ -39,24 +39,25 @@ We can configure the database and use the recommended usage to use functions as 
 
 ```Python
 
-from web_mysql import Connector as wmc
+from web_mysql import Connector
 
-wmc.host = "localhost"
-wmc.user = "root"
-wmc.password = "123456"
-wmc.database = "test"
+connector = Comnector()
+connector.host = "localhost"
+connector.user = "root"
+connector.password = "123456"
+connector.database = "test"
 
 def user_info():
   sql1 = "insert into users (name,id) values (%s,%s);“
   values1 = ["name", 10001]
-  wmc.executor(sql1, values1)
+  connector.executor(sql1, values1)
 
   sql2 = "select * from users where name=%s and id=%s;"
   values2 = ["name", 10001]
-  user = wmc.fetchone(sql2, values2)
+  user = connector.fetchone(sql2, values2)
 
   sql3 = "select * from users;"
-  all_user = wmc.fetchall(sql3)
+  all_user = connector.fetchall(sql3)
 ```
 
 1.0.0
