@@ -2,8 +2,7 @@
 # Web-MySQL
 A pure Python MySQL connect tool which base on PyMySQL
 
-A toolkit that simplifies the operation of Python website connecting to MySQL database.
-Just set MySQL settings and you can fetchone,fetchall,executor function to operate MySQL database in Python3..
+A toolkit that simplifies the operation of use Python to connecting to MySQL database in Web development. It can be used in undersize Flask or Django project or other small porject.
 
 ### [Installation](#installation)
 
@@ -15,7 +14,10 @@ use pip to upgrade Web-MySQL:
 
 ### [Instruction](#Instruction)
 
+Just set MySQL settings than you can use fetchone,fetchall,executor function to operate MySQL database in Python3.
+
 You can input sql command string and values list which format is as follows:
+
 ```Python
 sql = "insert into users (name,age) values (%s,%s);"
 values = ['your_name',11]
@@ -37,6 +39,8 @@ def fetchall(sql,values=None):
   ...
   return fetch_result
 ```
+
+The database operation can be performed by calling the corresponding function with passing in the SQL command and 'values'. When there are no variables to be passed in SQL command, 'values' don't need to be passed in.
 
 ### [Example](#Example)
 
@@ -67,8 +71,6 @@ def get_users():
   sql = "select * from users;"
   all_user = connector.fetchall(sql)
 ```
-
-The database operation can be performed by calling the corresponding function with passing in the SQL command and 'values'. When there are no variables to be passed in SQL command, 'values' don't need to be passed in, because default 'values' is None.
 
 ### [Suggest](#Suggest)
 
