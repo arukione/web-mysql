@@ -5,7 +5,7 @@ A pure Python MySQL connect tool which base on PyMySQL
 A toolkit that simplifies the operation of Python website connecting to MySQL database.
 Just set MySQL settings and you can fetchone,fetchall,executor function to operate MySQL database in Python3..
 
-# [Installation](#installation)
+### [Installation](#installation)
 
 use pip to install this package:
 ```$ pip3 install Web-MySQL```
@@ -13,7 +13,7 @@ use pip to install this package:
 use pip to upgrade Web-MySQL:
 ```$ pip3 install --upgrade Web-MySQL```
 
-# [Instruction](#Instruction)
+### [Instruction](#Instruction)
 
 You can input sql command string and values list which format is as follows:
 ```Python
@@ -38,7 +38,7 @@ def fetchall(sql,values=None):
   return fetch_result
 ```
 
-# [Example](#Example)
+### [Example](#Example)
 
 We can configure the database and use the recommended usage to use functions as follows.
 
@@ -70,7 +70,7 @@ def get_users():
 
 The database operation can be performed by calling the corresponding function with passing in the SQL command and 'values'. When there are no variables to be passed in SQL command, 'values' don't need to be passed in, because default 'values' is None.
 
-# [Suggest](#Suggest)
+### [Suggest](#Suggest)
 
 You can create a Connector instance in a independent Python file or Python class, we don't advice you create multiple instances in the same file or class, it's bad for maintenance. If you want have multiple different instance to operate different databases, you should have multiple files or classes to hold it.
 
