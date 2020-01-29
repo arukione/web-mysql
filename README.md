@@ -36,28 +36,30 @@ def fetchall(sql,values):
 
 We can configure the database and use the recommended usage to use functions as follows.
 
+Create a golbal Connector instance, and modify the corresponding variables which are database connection information;
 
 ```Python
-
 from web_mysql import Connector
 
-connector = Comnector()
+connector = Connector()
 connector.host = "localhost"
 connector.user = "root"
 connector.password = "123456"
 connector.database = "test"
 
-def user_info():
-  sql1 = "insert into users (name,id) values (%s,%s);“
-  values1 = ["name", 10001]
-  connector.executor(sql1, values1)
+def insert_user():
+  sql = "insert into users (name,id) values (%s,%s);“
+  values = ["name", 10001]
+  connector.executor(sql, values)
 
-  sql2 = "select * from users where name=%s and id=%s;"
-  values2 = ["name", 10001]
-  user = connector.fetchone(sql2, values2)
+def get_user(name, id):
+  sql = "select * from users where name=%s and id=%s;"
+  values = [name, id]
+  user = connector.fetchone(sql, values)
 
-  sql3 = "select * from users;"
-  all_user = connector.fetchall(sql3)
+def get_users():
+  sql = "select * from users;"
+  all_user = connector.fetchall(sql)
 ```
 
 1.0.0
