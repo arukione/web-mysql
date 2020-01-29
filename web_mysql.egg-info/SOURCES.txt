@@ -1,5 +1,10 @@
 README.md
 setup.py
+Web_MySQL.egg-info/PKG-INFO
+Web_MySQL.egg-info/SOURCES.txt
+Web_MySQL.egg-info/dependency_links.txt
+Web_MySQL.egg-info/requires.txt
+Web_MySQL.egg-info/top_level.txt
 web_mysql/__init__.py
 web_mysql.egg-info/PKG-INFO
 web_mysql.egg-info/SOURCES.txt

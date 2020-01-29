@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
-Name: web-mysql
-Version: 1.0.0.dev2
+Name: Web-MySQL
+Version: 1.0.0
 Summary: A pure Python mysql connect tool which base on PyMysql
 Home-page: https://github.com/arukione/web-mysql
 Author: aruki
 Author-email: zqljiebin@gmail.com
 License: MIT
-Description: UNKNOWN
+Description: A toolkit that simplifies the operation of Python website connecting to MySQL database.Just set MySQL settings and you can fetchone,fetchall,executor function to operate MySQL database.
 Keywords: web-mysql
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
