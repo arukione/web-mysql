@@ -3,3 +3,5 @@
 build/
 dist/
 web_mysql.egg-info/
+
+*/__pycache__
