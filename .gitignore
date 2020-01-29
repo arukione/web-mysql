@@ -1,8 +1,5 @@
 
-.idea/*
-
-build/*
-
-dist/*
-
-web_mysql.egg-info/*
+.idea/
+build/
+dist/
+web_mysql.egg-info/
