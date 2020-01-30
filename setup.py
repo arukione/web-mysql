@@ -2,11 +2,11 @@ from setuptools import setup
 
 setup(
     name='Web-MySQL',
-    version='1.0.1',
+    version='1.0.2',
     description='A pure Python mysql connect tool which base on PyMysql',
     long_description='A toolkit that simplifies the operation of Python website connecting to MySQL database.\
 Just set MySQL settings and you can fetchone,fetchall,executor function to operate MySQL database.',
-    url='https://github.com/arukione/web-mysql',
+    url='https://github.com/arukione/Web-MySQL',
     author='aruki',
     author_email='zqljiebin@gmail.com',
     license='MIT',

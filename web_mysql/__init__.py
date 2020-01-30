@@ -1,5 +1,6 @@
 """
-Web-MySQL: A pure Python mysql connect tool which base on PyMysql
+Web-MySQL: A pure-Python MySQl tool which base on PyMySQL
+
 Copyright (c) 2020 Web-MySQL contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,6 +21,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 """
+
+# Please see the LICENSE of all open source libraries in QUOTE file.
+# https://github.com/arukione/Web-MySQL
+
+# Use pure-Python MySQL client library PyMySQL
+# https://github.com/PyMySQL/PyMySQL
 import pymysql
 
 
