@@ -4,11 +4,11 @@ A pure Python MySQL connect tool which base on PyMySQL
 
 A toolkit that simplifies the operation of use Python to connecting to MySQL database in Web development. It can be used in undersize Flask or Django project or other small porject.
 
-### [中文介绍](#中文介绍)
+## [中文介绍](#中文介绍)
 
 [Introduction in Chinese](https://www.arukione.com/2020/01/29/%E5%9F%BA%E4%BA%8EPyMySQL%E6%9E%84%E5%BB%BA%E7%9A%84Web-MySQL/)
 
-### [Installation](#installation)
+## [Installation](#installation)
 
 use pip to install this package:
 
@@ -18,7 +18,7 @@ use pip to upgrade Web-MySQL:
 
 `$ pip3 install --upgrade Web-MySQL`
 
-### [Instruction](#Instruction)
+## [Instruction](#Instruction)
 
 Just set MySQL settings than you can use fetchone,fetchall,executor function to operate MySQL database in Python3.
 
@@ -48,7 +48,7 @@ def fetchall(sql,values=None):
 
 The database operation can be performed by calling the corresponding function with passing in the SQL command and 'values'. When there are no variables to be passed in SQL command, 'values' don't need to be passed in.
 
-### [Example](#Example)
+## [Example](#Example)
 
 We can configure the database and use the recommended usage to use functions as follows.
 
@@ -78,11 +78,14 @@ def get_users():
   all_user = connector.fetchall(sql)
 ```
 
-### [Suggest](#Suggest)
+## [Suggest](#Suggest)
 
 You can create a Connector instance in a independent Python file or Python class, we don't advice you create multiple instances in the same file or class, it's bad for maintenance. If you want have multiple different instance to operate different databases, you should have multiple files or classes to hold it.
 
+## [Link](#Link)
+
+[**PyMySQL: https://github.com/PyMySQL/PyMySQL**](https://github.com/PyMySQL/PyMySQL)
+
 1.0.0
 ---
-
 2020/1/29  正式发布
