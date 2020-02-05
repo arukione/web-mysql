@@ -64,7 +64,7 @@ connector.password = "123456"
 connector.database = "test"
 
 def insert_user():
-  sql = "insert into users (name,id) values (%s,%s);“
+  sql = "insert into users (name,id) values (%s,%s);"
   values = ["name", 10001]
   connector.executor(sql, values)
 
