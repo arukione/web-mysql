@@ -6,7 +6,7 @@ A toolkit that simplifies the operation of use Python to connecting to MySQL dat
 
 ## [中文介绍](#中文介绍)
 
-[Introduction in Chinese](https://www.arukione.com/2020/01/29/%E5%9F%BA%E4%BA%8EPyMySQL%E6%9E%84%E5%BB%BA%E7%9A%84Web-MySQL/)
+[Introduction in Chinese](https://www.arukione.com/2020/01/30/%E7%94%A8%E4%BA%8E%E5%B0%8F%E5%9E%8B%E7%BD%91%E7%AB%99%E5%90%8E%E7%AB%AF%E7%9A%84Web-MySQL/)
 
 ## [Installation](#installation)
 
