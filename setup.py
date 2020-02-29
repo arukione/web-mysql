@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='Web-MySQL',
-    version='1.0.2',
+    version='1.0.3',
     description='A pure Python mysql connect tool which base on PyMysql',
     long_description='A toolkit that simplifies the operation of Python website connecting to MySQL database.\
 Just set MySQL settings and you can fetchone,fetchall,executor function to operate MySQL database.',
